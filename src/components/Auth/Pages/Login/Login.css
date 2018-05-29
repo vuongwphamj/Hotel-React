@@ -1,0 +1,67 @@
+.wrapper{
+  padding: 80px 0px;
+}
+.Form div input, .Form button {
+    border: none;
+    display: block;
+    box-shadow: 1px 1px 30px #1b1b1b47; }
+  
+  .Form {
+    width: 350px;
+    height: 470px;
+    background:#ffffffba;
+    padding: 30px 10px;
+    margin: 130px auto;
+    position: relative; }
+    .Form form {
+      margin-top: 70px; }
+    .Form div {
+      margin: 20px auto;
+      text-align: center; }
+      .Form div label {
+        font-size: 40px;
+        color: #008275;
+        font-family: fantasy;
+        font-weight: bold;
+        padding: 4px 20px;
+        background: #fff;
+        box-shadow: 5px 5px 15px #9E9E9E;
+        border-radius: 10px;
+      }
+      .Form div input {
+        width: 80%;
+        margin: 15px auto;
+        padding:21px 35px;
+        height: 15px;
+        background-position: 8px 10px;
+        background-repeat: no-repeat;
+        background-size: 22px; }
+      .Form div .username {
+        background-image: url(https://www.weact.org/wp-content/uploads/2016/10/Blank-profile.png); }
+      .Form div .password {
+        background-image: url(https://www.paramounttpa.com/IGNCO/image/password.png); }
+    .Form .Formlogo {
+      width: 160px;
+      height: 160px;
+      background-color: #fff;
+      box-shadow: 1px 5px 25px #797777;
+      border-radius: 77px;
+      margin: auto;
+      position: absolute;
+      left: 91px;
+      top: -95px; }
+      .Form .Formlogo img {
+        width: 120px;
+        margin-top: 15px; }
+    .Form button {
+      width: 80%;
+      margin: 30px auto;
+      padding: 16px 0px;
+      background: #009688;
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold; }
+    .Form a {
+      color: #1f1b1bd4;
+      font-size: 13px; }
+  

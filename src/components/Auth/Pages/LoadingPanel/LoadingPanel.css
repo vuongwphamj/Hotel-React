@@ -1,0 +1,15 @@
+.panel{
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: 1;
+   
+  }
+  .Loading{
+    width: fit-content;
+    position: fixed;
+    right: 50%;
+    top: 45%;
+  }

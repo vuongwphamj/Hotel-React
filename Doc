@@ -1,0 +1,24 @@
+Phiên bản này sử dụng React-Router V4, hiện tại có 2 điểm khác so với phiên bản React-Router trước đó:
+- Về histoty: thay vì sử dụng histoty chung ( <BrowserRouter histoty={histoty}></BrowserRouter>),
+ ta phải truyền histoty từ Props -> dispatch({type: 'LOG_IN', histoty: this.props.histoty}) để Saga
+có thể sử dụng trong việc chuyển trang.
+- Về vấn đề chia Route: thay vì ta phải chia Route ngay từ đầu(
+    <Route path="/" component={App}>
+    <IndexRedirect to='/auth' />
+    <Route path="/auth" component={notRequireAuth(Auth)}>
+      <IndexRoute component={Login} />
+      <Route path="/auth/login" component={Login}/>
+      <Route path="/auth/signup" component={SignUp}/>
+      <Route path="/auth/changepwd" component={ChangePassWord}/>
+    </Route>
+    <Route path="/home" component={requireAuth(Home)}>
+      <IndexRoute component={ListModel} />
+      <Route path="/home/listmodel" component={ListModel}/>
+      <Route path="/home/deletemodel/:model3dId" component={DeleteModel}/>
+      <Route path="/home/addmodel" component={AddModel}/>
+      <Route path="/home/updatemodel/:model3dId" component={UpdateModel}/>
+      <Route path="/home/userinfor" component={UserInfor}/>
+    </Route>
+    <Route path="*" component={NotFound} />
+  </Route>
+) ta có thể chia Route trong mỗi trang(File src/components/App/App  và File src/components/Auth/index). 

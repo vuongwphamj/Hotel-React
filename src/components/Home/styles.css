@@ -1,0 +1,22 @@
+
+.backgroundHome {
+  width: 100%;
+  min-height: 100vh;
+  /* background: url(http://mait.ae/wp-content/uploads/2018/02/1.jpg); */
+  background-size: cover;
+}
+.containerHome {
+  display: inline-block;
+  /* width: calc(100vw - 80px); */
+  width:  100%;
+  max-width: 100%;
+  min-height: calc(100vh - 60px);
+  background: white;
+  margin-top: 20px;
+  /* margin-left: 52px; */
+}
+
+
+
+
+

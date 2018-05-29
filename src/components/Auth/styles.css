@@ -1,0 +1,11 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.background {
+    width: 100%;
+    margin: 0 auto;
+    background: url(http://www.intertech.ps/images1/home_sec.jpg) fixed;
+    background-size: cover;
+}
+  

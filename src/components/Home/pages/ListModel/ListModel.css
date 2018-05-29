@@ -1,0 +1,8 @@
+.ListModelWrapper{
+    margin: 100px auto;
+    display: inline-flex;
+}
+.ListModel{
+    background: black;
+    
+}

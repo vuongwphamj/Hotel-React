@@ -1,0 +1,31 @@
+.header {
+    background: rgba(0, 0, 0, 0.56);
+    top:0px;
+    max-width: 100vw;
+    padding: 15px;
+}
+.content {
+  width: 100%;
+  margin: auto;
+  overflow: auto;
+}
+
+.site-title {
+  padding-left: 100px;
+  font-weight: 300;
+  font-size: 42px;
+  float: left;
+}
+  
+.site-title a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+@media (max-width: 767px){
+  .add-post-button{
+    float: left;
+    margin-top: 16px;
+  }
+}
+  

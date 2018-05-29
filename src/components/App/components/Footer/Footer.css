@@ -1,0 +1,21 @@
+.footer{
+    text-align: center;
+    padding: 20px 0;
+    background: rgba(20, 21, 20, 0.83);
+    /* position: absolute;
+    bottom: 0px; */
+    width: 100%;
+  }
+  
+  .footer p{
+    margin: 0 0 8px 0;
+    font-size: 14px;
+    color: #FFF;
+  }
+  
+  .footer a{
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  

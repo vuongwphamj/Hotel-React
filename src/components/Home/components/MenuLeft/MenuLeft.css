@@ -1,0 +1,33 @@
+.leftMenu{
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  width: 40px;
+  background: white;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+.leftAvatar{
+  /* margin-top: 5px; */
+  width: '100%';
+  height: 40px;
+  padding: 2.5px;
+}
+
+.leftMenuButton{
+  width: '100%';
+  height: 40px;
+  padding: 10px;
+}
+.leftMenuButtonUser{
+  color: #000;
+  position: absolute;
+  bottom: 0;
+  width: '100%';
+  height: 40px;
+  padding: 10px;
+}
+.leftAvatar:hover, .leftMenuButton:hover, .leftMenuButtonUser:hover{
+  background: rgb(209, 209, 209);
+}

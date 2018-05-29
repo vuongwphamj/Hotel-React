@@ -1,0 +1,52 @@
+.wrapper{
+    padding: 80px 0px;
+}
+.Form{
+    width: 350px;
+    height: 470px;
+    background: #ffffffba;
+    margin:50px auto;
+    text-align: center;
+} 
+.Form a{
+    color: #1f1b1bd4;
+    font-size: 13px;
+}
+.FormPanel{
+    padding: 20px;
+    text-align: center;
+    background: #009688;
+    color: #fff;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-weight: bold;
+    margin-bottom: 57px!important;
+}
+.Form div {
+    margin: 25px 5px;
+}
+.Form div input{
+    width: 80%;
+    padding: 15px 35px;
+    border: none;
+    box-shadow: 5px 5px 20px #9E9E9E;
+    background-position: 8px 10px;
+    background-repeat: no-repeat;
+    background-size: 22px;
+}
+.Form div .username {
+    background-image: url(https://www.weact.org/wp-content/uploads/2016/10/Blank-profile.png); }
+.Form div .password {
+    background-image: url(https://www.paramounttpa.com/IGNCO/image/password.png); }
+.Form div .email{
+    background-image: url(http://anesis-spetses.gr/wp-content/uploads/2015/03/icon-suites2013-email.png);
+}
+.Form button{
+    width: 50%;
+    padding: 15px;
+    border: none;
+    background: #009688;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 30px;
+}
